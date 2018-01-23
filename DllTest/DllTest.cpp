@@ -10,10 +10,10 @@ DllTest::CStaticClassTest* DllTest::CStaticClassTest::ins = nullptr;
 
 DllTest::CStaticClassTest * DllTest::CStaticClassTest::getInstance()
 {
-	if (ins == nullptr)
-	{
-		ins = new CStaticClassTest();
-	}
+   if (ins == nullptr)
+   {
+      ins = new CStaticClassTest();
+   }
    return ins;
 }
 
